@@ -1,13 +1,25 @@
+calculator_width = 300px
+digit_height = 50px
+
 calculator {
-	display: block
+	display: flex
+	flex-direction: row
+	flex-wrap: wrap
 	border: 1px solid #EEE
+	width: calculator_width
 
-	display {
-
+	input.display {
+		display: block
+		box-shadow: inset 0px 0px 1px 1px #ccc
+		width: calculator_width
+		height: digit_height
 	}
 
 	button {
-
+		width: 50px
+		height: digit_height
+		border: 1px solid #EEE
+		box-shadow: 0px 0px 1px 1px #ccc
 	}
 
 }
